@@ -1,0 +1,83 @@
+:root{
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+--sm:15px
+--font: 'Outfit', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d5e1ef;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top:6%;
+}
+.qr-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-code img{
+
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+ background-color: var(--White);
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px 8px 15px;
+} 
+
+.info p{
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+}
+.info span{
+    text-align: center;
+    color: var(--Grayish-blue);
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+@media only screen and (max-width: 730px) {
+    .container {
+        margin-top: 25%;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 320px;
+        margin: 20px;
+        padding: 10px;
+        border-radius: 20px;
+     background-color: var(--White);
+    }
+}
