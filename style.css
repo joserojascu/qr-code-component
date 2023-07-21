@@ -55,6 +55,7 @@ body{
 
 .info p{
     font-weight: bold;
+    color: var(--Dark-blue);
     font-family: 'Outfit', sans-serif;
 }
 .info span{
